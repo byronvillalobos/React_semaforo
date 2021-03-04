@@ -11,11 +11,11 @@ export default class TrafficLight extends React.Component {
 
 	render() {
 		let redExtraClass = "";
-		if (this.state.clickedLight == "red") redExtraClass = "selected";
+		if (this.state.clickedLight == "red") redExtraClass = " selected";
 		let yellowExtraClass = "";
-		if (this.state.clickedLight == "yellow") redExtraClass = "selected";
+		if (this.state.clickedLight == "yellow") yellowExtraClass = " selected";
 		let greenExtraClass = "";
-		if (this.state.clickedLight == "green") redExtraClass = "selected";
+		if (this.state.clickedLight == "green") greenExtraClass = " selected";
 
 		return (
 			<div>
